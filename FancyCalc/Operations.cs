@@ -4,10 +4,7 @@ namespace FancyCalc
 {
     public static class Operations
     {
-        public static int Plus(int x, int y)
-        {
-            return x + y;
-        }
+        public static int Plus(int x, int y) => x + y;
 
         public static int Minus(int x, int y)
         {
